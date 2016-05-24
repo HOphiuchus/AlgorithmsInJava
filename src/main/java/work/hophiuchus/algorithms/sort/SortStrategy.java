@@ -1,4 +1,8 @@
 package work.hophiuchus.algorithms.sort;
 
-public class SortStrategy {
+public interface SortStrategy {
+
+    public int[] sort(int[] arr);
+
+
 }
